@@ -4,7 +4,7 @@ var languageValue = "en-US";
 
 function Send() {
     showLoader(true);
-    var sQuestion = "Generate a tweet based on the provided text. The tweet should should be random, unique and it should be based on only on provided in this text: ";
+    var sQuestion = "Generate a tweet based on the provided text and don't add hashtags. The tweet should should be random, unique and it should be based on only on provided in this text: ";
 
     var oHttp = new XMLHttpRequest();
     oHttp.open("POST", "https://api.openai.com/v1/completions");
