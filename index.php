@@ -32,7 +32,7 @@ if (isset($_COOKIE['PrivatePageLogin'])) {
     <div id="loaderItem" class="loader hide"></div>
 
     <label for="hashtagTxt">Hashtag</label>
-    <input type="text" id="hashtagTxt" name="hashtagTxt" value="#Chitral">
+    <input type="text" id="hashtagTxt" name="hashtagTxt" value="#YourHashTag">
 
     <label for="txtMsg">Context</label>
     <textarea id="txtMsg" name="txtMsg" rows="30" wrap="soft">Twitter is a microblogging network. Recently, it was bought by Elon Musk. Since the, he wanted to improve the freedom of speech on Twitter and wanted to improve the engagement and relevancy of the promoted tweets.</textarea>
